@@ -9,8 +9,8 @@ int main (int argc, char* argv[])
     int n;
 
     AsignarValores(&Landa, &m1, &m2, &e, &a, &h, &k);
-    uo := 1 / ( a * ( 1 - e ) );
-    vo := 0;
+    uo = 1 / ( a * ( 1 - e ) );
+    vo = 0;
     for (n=0; n<N; n++)
     {
 
