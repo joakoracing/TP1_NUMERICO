@@ -1,4 +1,7 @@
-void AsignarValores (float Landa, m1, m2, e, a, h)
+/*Landa = 97537/(900000)*/
+#define N
+
+void AsignarValores (float *Landa, *m1, *m2, *e, *a, *h)
 {
     float h2;
 
@@ -15,5 +18,6 @@ void AsignarValores (float Landa, m1, m2, e, a, h)
     h2 := a * G * M * (1 - (e * e)); /*m^4/s^2*/
 
     h := sqrt (h2);
-}
 
+    k := ( 2 * 3.14159265359 ) / N;
+}
