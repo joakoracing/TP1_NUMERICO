@@ -1,3 +1,3 @@
 #include "PUNTOA.c"
 
-void AsignarValores (float *Landa, *m1, *m2, *e, *a, *h);
+void AsignarValores (float *Landa, float *m1, float *m2, float *e, float *a, float *h, float *k);
