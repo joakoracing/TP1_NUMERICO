@@ -1,6 +1,20 @@
 /*Landa = 97537/(900000)*/
 #define N
 
+float Elevar (int a, b)
+{
+    float res;
+    int i;
+    res := 1;
+    if (b=0)
+        return 1;
+    for (i=1; i<=b; i++)
+    {
+        res := res*a;
+    }
+    return (res);
+}
+
 void AsignarValores (float *Landa, *m1, *m2, *e, *a, *h)
 {
     float h2;
