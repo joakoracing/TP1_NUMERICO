@@ -17,7 +17,7 @@ float Elevar (int a, int b)
     return (res);
 }
 
-void AsignarValores (float *Landa, float *m1, float *m2, float *e, float *a, float *h, float *k)
+void AsignarValores (float *Landa, float *m1, float *m2, float *e, float *a, float *h, float *k)  /*multiplicar todo por 10*/
 {
     float h2;
 
