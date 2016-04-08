@@ -5,14 +5,12 @@
 
 int main (int argc, char* argv[])
 {
-    float Landa, m1, m2, e, a, h2, k, m, g, uo, vo;
-    int n, u[N-1], v[N-1];
+    float Landa, m1, m2, e, a, h2, k, m, g, u[N-1], v[N-1];
+    int n;
 
     AsignarValores(&Landa, &m1, &m2, &e, &a, &h2, &k, &m, &g);
-    uo = 1 / ( a * ( 1 - e ) );
-    u[0] = uo;
-    vo = 0;
-    v[0] = vo;
+    u[0] = 1 / ( a * ( 1 - e ) );
+    v[0] = 0;
     for (n=0; n<N; n++)
     {
         u[n+1] = u[n] + (k * v[n]);
