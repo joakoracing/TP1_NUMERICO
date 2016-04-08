@@ -5,7 +5,7 @@
 
 int main (int argc, char* argv[])
 {
-    float Landa, m1, m2, e, a, h2, k, m, g, u[N-1], v[N-1];
+    float Landa, m1, m2, e, a, h2, k, m, g, u[N], v[N];
     int n;
 
     AsignarValores(&Landa, &m1, &m2, &e, &a, &h2, &k, &m, &g);
