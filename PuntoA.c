@@ -12,7 +12,7 @@ float Elevar(float a, float b)
         for(i=1; i<=b; i++)
             {res=(res*a);}
     if (b<0)
-        for(i=1; i<=b; i++)
+        for(i=1; i<=-b; i++)
             {res=(res*(1/a));}
     return res;
 }
